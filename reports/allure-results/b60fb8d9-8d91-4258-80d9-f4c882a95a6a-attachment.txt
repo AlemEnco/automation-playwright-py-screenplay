@@ -1,0 +1,10 @@
+[32m2025-07-22 21:11:41[0m | [1mINFO    [0m | [36mconftest[0m:[36msetup_test_environment[0m:[36m70[0m | [1mSetting up test environment...[0m
+[32m2025-07-22 21:11:42[0m | [1mINFO    [0m | [36msrc.utils.fixtures[0m:[36mbrowser[0m:[36m47[0m | [1mBrowser launched: chromium[0m
+[32m2025-07-22 21:11:42[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_start[0m:[36m82[0m | [1mTEST STARTED: test_successful_login_with_valid_credentials - Test successful login with valid credentials.[0m
+[32m2025-07-22 21:11:42[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_step[0m:[36m98[0m | [1mSTEP: Navigate to login page[0m
+[32m2025-07-22 21:11:43[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_step[0m:[36m98[0m | [1mSTEP: Verify login page is displayed[0m
+[32m2025-07-22 21:11:43[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_step[0m:[36m98[0m | [1mSTEP: Login with valid credentials[0m
+[32m2025-07-22 21:11:44[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_step[0m:[36m98[0m | [1mSTEP: Verify successful login[0m
+[32m2025-07-22 21:11:44[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_pass[0m:[36m86[0m | [1mTEST PASSED: test_successful_login_with_valid_credentials (Duration: 2.74s)[0m
+[32m2025-07-22 21:11:44[0m | [1mINFO    [0m | [36msrc.utils.fixtures[0m:[36mbrowser[0m:[36m50[0m | [1mBrowser closed[0m
+[32m2025-07-22 21:11:44[0m | [1mINFO    [0m | [36mconftest[0m:[36msetup_test_environment[0m:[36m78[0m | [1mTest environment cleanup completed[0m

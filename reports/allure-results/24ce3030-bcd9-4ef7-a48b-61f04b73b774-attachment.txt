@@ -1,0 +1,2 @@
+[32m2025-07-22 21:16:19[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_start[0m:[36m82[0m | [1mTEST STARTED: test_current_url_question - Test CurrentUrl question.[0m
+[32m2025-07-22 21:16:19[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_pass[0m:[36m86[0m | [1mTEST PASSED: test_current_url_question (Duration: 0.00s)[0m

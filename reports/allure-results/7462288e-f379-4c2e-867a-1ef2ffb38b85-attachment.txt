@@ -1,0 +1,2 @@
+[32m2025-07-22 21:10:37[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_start[0m:[36m82[0m | [1mTEST STARTED: test_logged_in_page_after_successful_login - Test logged in page state after successful login.[0m
+[32m2025-07-22 21:10:40[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_pass[0m:[36m86[0m | [1mTEST PASSED: test_logged_in_page_after_successful_login (Duration: 2.31s)[0m

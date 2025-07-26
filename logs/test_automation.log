@@ -1,0 +1,635 @@
+2025-07-22 20:56:24 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 20:56:24 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 20:56:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_creation - Test that an actor can be created with a name.
+2025-07-22 20:56:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_creation (Duration: 0.00s)
+2025-07-22 20:56:24 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 20:56:24 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 20:56:35 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 20:56:35 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_creation - Test that an actor can be created with a name.
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_creation (Duration: 0.00s)
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_be_granted_abilities - Test that an actor can be granted abilities.
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_be_granted_abilities (Duration: 0.00s)
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_check_for_abilities - Test that an actor can check if it has specific abilities.
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_check_for_abilities (Duration: 0.00s)
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_retrieve_abilities - Test that an actor can retrieve specific abilities.
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_retrieve_abilities (Duration: 0.00s)
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_raises_error_for_missing_ability - Test that an actor raises an error when trying to use a missing ability.
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_raises_error_for_missing_ability (Duration: 0.00s)
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_perform_tasks - Test that an actor can perform tasks.
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_perform_tasks (Duration: 0.00s)
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_ask_questions - Test that an actor can ask questions.
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_ask_questions (Duration: 0.00s)
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_creation_with_browser - Test creating BrowseTheWeb ability with a browser.
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_creation_with_browser (Duration: 0.00s)
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_creation_with_page - Test creating BrowseTheWeb ability with an existing page.
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_creation_with_page (Duration: 0.00s)
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_as_actor - Test binding BrowseTheWeb ability to an actor.
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_as_actor (Duration: 0.00s)
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_context_creation - Test that context is created when accessed.
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_context_creation (Duration: 0.00s)
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_page_creation - Test that page is created when accessed.
+2025-07-22 20:56:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_page_creation (Duration: 0.00s)
+2025-07-22 20:56:36 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_click_interaction - Test Click interaction.
+2025-07-22 20:56:36 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_click_interaction (Duration: 0.00s)
+2025-07-22 20:56:36 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_type_interaction - Test Type interaction.
+2025-07-22 20:56:36 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_type_interaction (Duration: 0.00s)
+2025-07-22 20:56:36 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_navigate_interaction - Test Navigate interaction.
+2025-07-22 20:56:36 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_navigate_interaction (Duration: 0.00s)
+2025-07-22 20:56:36 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_text_question - Test Text question.
+2025-07-22 20:56:36 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_text_question (Duration: 0.00s)
+2025-07-22 20:56:36 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_current_url_question - Test CurrentUrl question.
+2025-07-22 20:56:36 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_current_url_question (Duration: 0.00s)
+2025-07-22 20:56:36 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_visibility_question - Test Visibility question.
+2025-07-22 20:56:36 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_visibility_question (Duration: 0.00s)
+2025-07-22 20:56:36 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 20:56:36 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 20:56:44 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 20:56:44 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 20:56:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_navigation - Test navigation to login page.
+2025-07-22 20:56:46 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_navigation (Duration: 1.83s)
+2025-07-22 20:56:46 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 20:56:46 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 21:01:40 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 21:01:40 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:01:40 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_successful_login_with_valid_credentials - Test successful login with valid credentials.
+2025-07-22 21:01:40 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:01:42 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login page is displayed
+2025-07-22 21:01:42 | INFO     | src.utils.logger:log_step:98 | STEP: Login with valid credentials
+2025-07-22 21:01:43 | INFO     | src.utils.logger:log_step:98 | STEP: Verify successful login
+2025-07-22 21:01:43 | ERROR    | src.utils.logger:log_test_fail:90 | TEST FAILED: test_successful_login_with_valid_credentials (Duration: 2.82s) - self = <tests.e2e.test_login.TestLogin object at 0x110bbb890>, actor = Actor(TestUser)
+
+    @allure.story("Successful Login")
+    @allure.severity(allure.severity_level.CRITICAL)
+    @pytest.mark.smoke
+    @pytest.mark.login
+    def test_successful_login_with_valid_credentials(self, actor: Actor):
+        """Test successful login with valid credentials."""
+    
+        with allure.step("Navigate to login page"):
+            log_step("Navigate to login page")
+            actor.attempts_to(NavigateToLoginPage())
+    
+        with allure.step("Verify login page is displayed"):
+            log_step("Verify login page is displayed")
+            assert actor.asks(Visibility.of(LoginPageLocators.USERNAME_FIELD))
+            assert actor.asks(Visibility.of(LoginPageLocators.PASSWORD_FIELD))
+            assert actor.asks(Visibility.of(LoginPageLocators.SUBMIT_BUTTON))
+    
+        with allure.step("Login with valid credentials"):
+            log_step("Login with valid credentials")
+            actor.attempts_to(Login.with_valid_credentials())
+    
+        with allure.step("Verify successful login"):
+            log_step("Verify successful login")
+            # Check URL contains logged-in path
+            current_url = actor.asks(CurrentUrl())
+            assert "/logged-in-successfully/" in current_url
+    
+            # Check success message is displayed
+            assert actor.asks(Visibility.of(LoggedInPageLocators.SUCCESS_MESSAGE))
+    
+            # Verify success message text
+            success_text = actor.asks(Text.of(LoggedInPageLocators.SUCCESS_MESSAGE))
+>           assert "Congratulations" in success_text or "successfully logged in" in success_text.lower()
+E           AssertionError: assert ('Congratulations' in 'Logged In Successfully' or 'successfully logged in' in 'logged in successfully')
+E            +  where 'logged in successfully' = <built-in method lower of str object at 0x1114dacb0>()
+E            +    where <built-in method lower of str object at 0x1114dacb0> = 'Logged In Successfully'.lower
+
+tests/e2e/test_login.py:54: AssertionError
+2025-07-22 21:01:43 | DEBUG    | src.utils.screenshot:take_screenshot:63 | Screenshot saved: reports/screenshots/test_successful_login_with_valid_credentials/test_successful_login_with_valid_credentials_failure_self_=_tests.e2e.test_login.TestLogin_20250722_210143_788.png
+2025-07-22 21:01:43 | ERROR    | src.utils.screenshot:take_screenshot_on_failure:96 | Failure screenshot saved: reports/screenshots/test_successful_login_with_valid_credentials/test_successful_login_with_valid_credentials_failure_self_=_tests.e2e.test_login.TestLogin_20250722_210143_788.png
+2025-07-22 21:01:43 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:01:43 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 21:02:08 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 21:02:08 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:02:08 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_successful_login_with_valid_credentials - Test successful login with valid credentials.
+2025-07-22 21:02:08 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:02:10 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login page is displayed
+2025-07-22 21:02:10 | INFO     | src.utils.logger:log_step:98 | STEP: Login with valid credentials
+2025-07-22 21:02:11 | INFO     | src.utils.logger:log_step:98 | STEP: Verify successful login
+2025-07-22 21:02:11 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_successful_login_with_valid_credentials (Duration: 2.76s)
+2025-07-22 21:02:11 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:02:11 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 21:02:19 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 21:02:19 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:02:19 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_username - Test login failure with invalid username.
+2025-07-22 21:02:19 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:02:21 | INFO     | src.utils.logger:log_step:98 | STEP: Login with invalid username
+2025-07-22 21:02:21 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:02:21 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_username (Duration: 2.46s)
+2025-07-22 21:02:21 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:02:21 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 21:02:29 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 21:02:30 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:02:30 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_successful_login_with_valid_credentials - Test successful login with valid credentials.
+2025-07-22 21:02:30 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:02:31 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login page is displayed
+2025-07-22 21:02:31 | INFO     | src.utils.logger:log_step:98 | STEP: Login with valid credentials
+2025-07-22 21:02:32 | INFO     | src.utils.logger:log_step:98 | STEP: Verify successful login
+2025-07-22 21:02:32 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_successful_login_with_valid_credentials (Duration: 2.72s)
+2025-07-22 21:02:32 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:02:32 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 21:02:43 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 21:02:43 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:02:43 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_creation - Test that an actor can be created with a name.
+2025-07-22 21:02:43 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_creation (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_be_granted_abilities - Test that an actor can be granted abilities.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_be_granted_abilities (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_check_for_abilities - Test that an actor can check if it has specific abilities.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_check_for_abilities (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_retrieve_abilities - Test that an actor can retrieve specific abilities.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_retrieve_abilities (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_raises_error_for_missing_ability - Test that an actor raises an error when trying to use a missing ability.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_raises_error_for_missing_ability (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_perform_tasks - Test that an actor can perform tasks.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_perform_tasks (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_ask_questions - Test that an actor can ask questions.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_ask_questions (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_creation_with_browser - Test creating BrowseTheWeb ability with a browser.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_creation_with_browser (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_creation_with_page - Test creating BrowseTheWeb ability with an existing page.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_creation_with_page (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_as_actor - Test binding BrowseTheWeb ability to an actor.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_as_actor (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_context_creation - Test that context is created when accessed.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_context_creation (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_page_creation - Test that page is created when accessed.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_page_creation (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_click_interaction - Test Click interaction.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_click_interaction (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_type_interaction - Test Type interaction.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_type_interaction (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_navigate_interaction - Test Navigate interaction.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_navigate_interaction (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_text_question - Test Text question.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_text_question (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_current_url_question - Test CurrentUrl question.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_current_url_question (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_visibility_question - Test Visibility question.
+2025-07-22 21:02:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_visibility_question (Duration: 0.00s)
+2025-07-22 21:02:44 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:02:44 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 21:03:21 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 21:03:21 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:03:21 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_successful_login_with_valid_credentials - Test successful login with valid credentials.
+2025-07-22 21:03:21 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:03:23 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login page is displayed
+2025-07-22 21:03:23 | INFO     | src.utils.logger:log_step:98 | STEP: Login with valid credentials
+2025-07-22 21:03:24 | INFO     | src.utils.logger:log_step:98 | STEP: Verify successful login
+2025-07-22 21:03:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_successful_login_with_valid_credentials (Duration: 2.82s)
+2025-07-22 21:03:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_username - Test login failure with invalid username.
+2025-07-22 21:03:24 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:03:26 | INFO     | src.utils.logger:log_step:98 | STEP: Login with invalid username
+2025-07-22 21:03:26 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:03:27 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_username (Duration: 2.34s)
+2025-07-22 21:03:27 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_password - Test login failure with invalid password.
+2025-07-22 21:03:27 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:03:28 | INFO     | src.utils.logger:log_step:98 | STEP: Login with invalid password
+2025-07-22 21:03:29 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:03:29 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_password (Duration: 2.44s)
+2025-07-22 21:03:29 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_both_invalid_credentials - Test login failure with both invalid username and password.
+2025-07-22 21:03:29 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:03:31 | INFO     | src.utils.logger:log_step:98 | STEP: Login with both invalid credentials
+2025-07-22 21:03:31 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:03:31 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_both_invalid_credentials (Duration: 2.39s)
+2025-07-22 21:03:31 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_empty_username - Test login failure with empty username.
+2025-07-22 21:03:31 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:03:33 | INFO     | src.utils.logger:log_step:98 | STEP: Login with empty username
+2025-07-22 21:03:34 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:03:34 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_empty_username (Duration: 2.51s)
+2025-07-22 21:03:34 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_empty_password - Test login failure with empty password.
+2025-07-22 21:03:34 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:03:36 | INFO     | src.utils.logger:log_step:98 | STEP: Login with empty password
+2025-07-22 21:03:36 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:03:36 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_empty_password (Duration: 2.38s)
+2025-07-22 21:03:36 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_both_empty_fields - Test login failure with both empty fields.
+2025-07-22 21:03:36 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:03:38 | INFO     | src.utils.logger:log_step:98 | STEP: Login with both empty fields
+2025-07-22 21:03:39 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:03:39 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_both_empty_fields (Duration: 2.38s)
+2025-07-22 21:03:39 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_elements_are_visible - Test that all login page elements are visible and accessible.
+2025-07-22 21:03:39 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:03:40 | INFO     | src.utils.logger:log_step:98 | STEP: Verify all login elements are visible
+2025-07-22 21:03:41 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_elements_are_visible (Duration: 1.69s)
+2025-07-22 21:03:41 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_url_and_title - Test login page URL and title are correct.
+2025-07-22 21:03:41 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:03:42 | INFO     | src.utils.logger:log_step:98 | STEP: Verify URL and page title
+2025-07-22 21:03:42 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_url_and_title (Duration: 1.67s)
+2025-07-22 21:03:42 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials0] - Test login with various invalid credential combinations.
+2025-07-22 21:03:42 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Invalid username with valid password
+2025-07-22 21:03:45 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials0] (Duration: 2.40s)
+2025-07-22 21:03:45 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials1] - Test login with various invalid credential combinations.
+2025-07-22 21:03:45 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Valid username with invalid password
+2025-07-22 21:03:47 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials1] (Duration: 2.41s)
+2025-07-22 21:03:47 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials2] - Test login with various invalid credential combinations.
+2025-07-22 21:03:47 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Both username and password invalid
+2025-07-22 21:03:50 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials2] (Duration: 2.38s)
+2025-07-22 21:03:50 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials3] - Test login with various invalid credential combinations.
+2025-07-22 21:03:50 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Empty username with valid password
+2025-07-22 21:03:52 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials3] (Duration: 2.40s)
+2025-07-22 21:03:52 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials4] - Test login with various invalid credential combinations.
+2025-07-22 21:03:52 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Valid username with empty password
+2025-07-22 21:03:54 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials4] (Duration: 2.38s)
+2025-07-22 21:03:54 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials5] - Test login with various invalid credential combinations.
+2025-07-22 21:03:54 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Both username and password empty
+2025-07-22 21:03:57 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials5] (Duration: 2.44s)
+2025-07-22 21:03:57 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials6] - Test login with various invalid credential combinations.
+2025-07-22 21:03:57 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Username with special characters
+2025-07-22 21:03:59 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials6] (Duration: 2.40s)
+2025-07-22 21:03:59 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials7] - Test login with various invalid credential combinations.
+2025-07-22 21:03:59 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Very long username
+2025-07-22 21:04:02 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials7] (Duration: 2.40s)
+2025-07-22 21:04:02 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials8] - Test login with various invalid credential combinations.
+2025-07-22 21:04:02 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Very long password
+2025-07-22 21:04:04 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials8] (Duration: 2.40s)
+2025-07-22 21:04:04 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_navigation - Test navigation to login page.
+2025-07-22 21:04:06 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_navigation (Duration: 1.68s)
+2025-07-22 21:04:06 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_elements_visibility - Test that all login page elements are visible.
+2025-07-22 21:04:08 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_elements_visibility (Duration: 1.67s)
+2025-07-22 21:04:08 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_form_interaction - Test basic form interactions on login page.
+2025-07-22 21:04:09 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_form_interaction (Duration: 1.75s)
+2025-07-22 21:04:09 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_successful_login_flow - Test successful login flow using page objects.
+2025-07-22 21:04:12 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_successful_login_flow (Duration: 2.09s)
+2025-07-22 21:04:12 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_failed_login_flow - Test failed login flow using page objects.
+2025-07-22 21:04:13 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_failed_login_flow (Duration: 1.76s)
+2025-07-22 21:04:13 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_logged_in_page_after_successful_login - Test logged in page state after successful login.
+2025-07-22 21:04:15 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_logged_in_page_after_successful_login (Duration: 2.11s)
+2025-07-22 21:04:15 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_logged_in_page_verification_methods - Test various verification methods on logged in page.
+2025-07-22 21:04:18 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_logged_in_page_verification_methods (Duration: 2.11s)
+2025-07-22 21:04:18 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_transition_login_to_logged_in - Test page transition from login to logged in page.
+2025-07-22 21:04:20 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_transition_login_to_logged_in (Duration: 2.56s)
+2025-07-22 21:04:20 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_object_error_handling - Test page object error handling for missing elements.
+2025-07-22 21:04:22 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_object_error_handling (Duration: 1.70s)
+2025-07-22 21:04:22 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_object_wait_mechanisms - Test page object wait mechanisms.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_object_wait_mechanisms (Duration: 1.70s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_creation - Test that an actor can be created with a name.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_creation (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_be_granted_abilities - Test that an actor can be granted abilities.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_be_granted_abilities (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_check_for_abilities - Test that an actor can check if it has specific abilities.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_check_for_abilities (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_retrieve_abilities - Test that an actor can retrieve specific abilities.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_retrieve_abilities (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_raises_error_for_missing_ability - Test that an actor raises an error when trying to use a missing ability.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_raises_error_for_missing_ability (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_perform_tasks - Test that an actor can perform tasks.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_perform_tasks (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_ask_questions - Test that an actor can ask questions.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_ask_questions (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_creation_with_browser - Test creating BrowseTheWeb ability with a browser.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_creation_with_browser (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_creation_with_page - Test creating BrowseTheWeb ability with an existing page.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_creation_with_page (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_as_actor - Test binding BrowseTheWeb ability to an actor.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_as_actor (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_context_creation - Test that context is created when accessed.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_context_creation (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_page_creation - Test that page is created when accessed.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_page_creation (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_click_interaction - Test Click interaction.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_click_interaction (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_type_interaction - Test Type interaction.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_type_interaction (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_navigate_interaction - Test Navigate interaction.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_navigate_interaction (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_text_question - Test Text question.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_text_question (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_current_url_question - Test CurrentUrl question.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_current_url_question (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_visibility_question - Test Visibility question.
+2025-07-22 21:04:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_visibility_question (Duration: 0.00s)
+2025-07-22 21:04:24 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:04:24 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 21:04:37 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 21:04:38 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:04:38 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_successful_login_with_valid_credentials - Test successful login with valid credentials.
+2025-07-22 21:04:38 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:04:40 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login page is displayed
+2025-07-22 21:04:40 | INFO     | src.utils.logger:log_step:98 | STEP: Login with valid credentials
+2025-07-22 21:04:41 | INFO     | src.utils.logger:log_step:98 | STEP: Verify successful login
+2025-07-22 21:04:41 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_successful_login_with_valid_credentials (Duration: 3.15s)
+2025-07-22 21:04:41 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_username - Test login failure with invalid username.
+2025-07-22 21:04:41 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:04:43 | INFO     | src.utils.logger:log_step:98 | STEP: Login with invalid username
+2025-07-22 21:04:44 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:04:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_username (Duration: 2.91s)
+2025-07-22 21:04:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_password - Test login failure with invalid password.
+2025-07-22 21:04:44 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:04:46 | INFO     | src.utils.logger:log_step:98 | STEP: Login with invalid password
+2025-07-22 21:04:47 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:04:47 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_password (Duration: 2.65s)
+2025-07-22 21:04:47 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_both_invalid_credentials - Test login failure with both invalid username and password.
+2025-07-22 21:04:47 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:04:49 | INFO     | src.utils.logger:log_step:98 | STEP: Login with both invalid credentials
+2025-07-22 21:04:50 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:04:50 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_both_invalid_credentials (Duration: 2.64s)
+2025-07-22 21:04:50 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_empty_username - Test login failure with empty username.
+2025-07-22 21:04:50 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:04:52 | INFO     | src.utils.logger:log_step:98 | STEP: Login with empty username
+2025-07-22 21:04:53 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:04:53 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_empty_username (Duration: 2.68s)
+2025-07-22 21:04:53 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_empty_password - Test login failure with empty password.
+2025-07-22 21:04:53 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:04:55 | INFO     | src.utils.logger:log_step:98 | STEP: Login with empty password
+2025-07-22 21:04:55 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:04:55 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_empty_password (Duration: 2.67s)
+2025-07-22 21:04:56 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_both_empty_fields - Test login failure with both empty fields.
+2025-07-22 21:04:56 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:04:57 | INFO     | src.utils.logger:log_step:98 | STEP: Login with both empty fields
+2025-07-22 21:04:58 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:04:58 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_both_empty_fields (Duration: 2.63s)
+2025-07-22 21:04:58 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_elements_are_visible - Test that all login page elements are visible and accessible.
+2025-07-22 21:04:58 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:05:00 | INFO     | src.utils.logger:log_step:98 | STEP: Verify all login elements are visible
+2025-07-22 21:05:00 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_elements_are_visible (Duration: 2.01s)
+2025-07-22 21:05:01 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_url_and_title - Test login page URL and title are correct.
+2025-07-22 21:05:01 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:05:02 | INFO     | src.utils.logger:log_step:98 | STEP: Verify URL and page title
+2025-07-22 21:05:03 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_url_and_title (Duration: 1.97s)
+2025-07-22 21:05:03 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials0] - Test login with various invalid credential combinations.
+2025-07-22 21:05:03 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Invalid username with valid password
+2025-07-22 21:05:05 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials0] (Duration: 2.66s)
+2025-07-22 21:05:06 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials1] - Test login with various invalid credential combinations.
+2025-07-22 21:05:06 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Valid username with invalid password
+2025-07-22 21:05:08 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials1] (Duration: 2.69s)
+2025-07-22 21:05:08 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials2] - Test login with various invalid credential combinations.
+2025-07-22 21:05:08 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Both username and password invalid
+2025-07-22 21:05:11 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials2] (Duration: 2.72s)
+2025-07-22 21:05:11 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials3] - Test login with various invalid credential combinations.
+2025-07-22 21:05:11 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Empty username with valid password
+2025-07-22 21:05:14 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials3] (Duration: 2.63s)
+2025-07-22 21:05:14 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials4] - Test login with various invalid credential combinations.
+2025-07-22 21:05:14 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Valid username with empty password
+2025-07-22 21:05:17 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials4] (Duration: 2.73s)
+2025-07-22 21:05:17 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials5] - Test login with various invalid credential combinations.
+2025-07-22 21:05:17 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Both username and password empty
+2025-07-22 21:05:20 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials5] (Duration: 2.62s)
+2025-07-22 21:05:20 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials6] - Test login with various invalid credential combinations.
+2025-07-22 21:05:20 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Username with special characters
+2025-07-22 21:05:22 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials6] (Duration: 2.69s)
+2025-07-22 21:05:23 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials7] - Test login with various invalid credential combinations.
+2025-07-22 21:05:23 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Very long username
+2025-07-22 21:05:25 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials7] (Duration: 2.69s)
+2025-07-22 21:05:25 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials8] - Test login with various invalid credential combinations.
+2025-07-22 21:05:25 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Very long password
+2025-07-22 21:05:28 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials8] (Duration: 2.76s)
+2025-07-22 21:05:28 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_navigation - Test navigation to login page.
+2025-07-22 21:05:30 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_navigation (Duration: 1.93s)
+2025-07-22 21:05:31 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_elements_visibility - Test that all login page elements are visible.
+2025-07-22 21:05:33 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_elements_visibility (Duration: 2.01s)
+2025-07-22 21:05:33 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_form_interaction - Test basic form interactions on login page.
+2025-07-22 21:05:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_form_interaction (Duration: 1.97s)
+2025-07-22 21:05:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_successful_login_flow - Test successful login flow using page objects.
+2025-07-22 21:05:37 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_successful_login_flow (Duration: 2.51s)
+2025-07-22 21:05:38 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_failed_login_flow - Test failed login flow using page objects.
+2025-07-22 21:05:40 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_failed_login_flow (Duration: 2.07s)
+2025-07-22 21:05:40 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_logged_in_page_after_successful_login - Test logged in page state after successful login.
+2025-07-22 21:05:42 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_logged_in_page_after_successful_login (Duration: 2.35s)
+2025-07-22 21:05:42 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_logged_in_page_verification_methods - Test various verification methods on logged in page.
+2025-07-22 21:05:45 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_logged_in_page_verification_methods (Duration: 2.33s)
+2025-07-22 21:05:45 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_transition_login_to_logged_in - Test page transition from login to logged in page.
+2025-07-22 21:05:47 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_transition_login_to_logged_in (Duration: 2.39s)
+2025-07-22 21:05:47 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_object_error_handling - Test page object error handling for missing elements.
+2025-07-22 21:05:49 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_object_error_handling (Duration: 2.00s)
+2025-07-22 21:05:50 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_object_wait_mechanisms - Test page object wait mechanisms.
+2025-07-22 21:05:52 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_object_wait_mechanisms (Duration: 1.99s)
+2025-07-22 21:05:52 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_creation - Test that an actor can be created with a name.
+2025-07-22 21:05:52 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_creation (Duration: 0.00s)
+2025-07-22 21:05:52 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_be_granted_abilities - Test that an actor can be granted abilities.
+2025-07-22 21:05:52 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_be_granted_abilities (Duration: 0.00s)
+2025-07-22 21:05:52 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_check_for_abilities - Test that an actor can check if it has specific abilities.
+2025-07-22 21:05:52 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_check_for_abilities (Duration: 0.00s)
+2025-07-22 21:05:52 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_retrieve_abilities - Test that an actor can retrieve specific abilities.
+2025-07-22 21:05:52 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_retrieve_abilities (Duration: 0.00s)
+2025-07-22 21:05:52 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_raises_error_for_missing_ability - Test that an actor raises an error when trying to use a missing ability.
+2025-07-22 21:05:52 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_raises_error_for_missing_ability (Duration: 0.00s)
+2025-07-22 21:05:53 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_perform_tasks - Test that an actor can perform tasks.
+2025-07-22 21:05:53 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_perform_tasks (Duration: 0.00s)
+2025-07-22 21:05:53 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_ask_questions - Test that an actor can ask questions.
+2025-07-22 21:05:53 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_ask_questions (Duration: 0.00s)
+2025-07-22 21:05:53 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_creation_with_browser - Test creating BrowseTheWeb ability with a browser.
+2025-07-22 21:05:53 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_creation_with_browser (Duration: 0.00s)
+2025-07-22 21:05:53 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_creation_with_page - Test creating BrowseTheWeb ability with an existing page.
+2025-07-22 21:05:53 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_creation_with_page (Duration: 0.00s)
+2025-07-22 21:05:53 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_as_actor - Test binding BrowseTheWeb ability to an actor.
+2025-07-22 21:05:53 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_as_actor (Duration: 0.00s)
+2025-07-22 21:05:53 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_context_creation - Test that context is created when accessed.
+2025-07-22 21:05:53 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_context_creation (Duration: 0.00s)
+2025-07-22 21:05:54 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_page_creation - Test that page is created when accessed.
+2025-07-22 21:05:54 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_page_creation (Duration: 0.00s)
+2025-07-22 21:05:54 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_click_interaction - Test Click interaction.
+2025-07-22 21:05:54 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_click_interaction (Duration: 0.00s)
+2025-07-22 21:05:54 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_type_interaction - Test Type interaction.
+2025-07-22 21:05:54 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_type_interaction (Duration: 0.00s)
+2025-07-22 21:05:54 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_navigate_interaction - Test Navigate interaction.
+2025-07-22 21:05:54 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_navigate_interaction (Duration: 0.00s)
+2025-07-22 21:05:54 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_text_question - Test Text question.
+2025-07-22 21:05:54 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_text_question (Duration: 0.00s)
+2025-07-22 21:05:55 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_current_url_question - Test CurrentUrl question.
+2025-07-22 21:05:55 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_current_url_question (Duration: 0.00s)
+2025-07-22 21:05:55 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_visibility_question - Test Visibility question.
+2025-07-22 21:05:55 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_visibility_question (Duration: 0.00s)
+2025-07-22 21:05:55 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:05:55 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 21:10:17 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 21:10:18 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:10:18 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_navigation - Test navigation to login page.
+2025-07-22 21:10:19 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_navigation (Duration: 1.69s)
+2025-07-22 21:10:19 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:10:19 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 21:10:28 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 21:10:28 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:10:28 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_navigation - Test navigation to login page.
+2025-07-22 21:10:30 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_navigation (Duration: 1.69s)
+2025-07-22 21:10:30 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_elements_visibility - Test that all login page elements are visible.
+2025-07-22 21:10:32 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_elements_visibility (Duration: 1.68s)
+2025-07-22 21:10:32 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_form_interaction - Test basic form interactions on login page.
+2025-07-22 21:10:33 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_form_interaction (Duration: 1.71s)
+2025-07-22 21:10:33 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_successful_login_flow - Test successful login flow using page objects.
+2025-07-22 21:10:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_successful_login_flow (Duration: 2.07s)
+2025-07-22 21:10:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_failed_login_flow - Test failed login flow using page objects.
+2025-07-22 21:10:37 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_failed_login_flow (Duration: 1.75s)
+2025-07-22 21:10:37 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_logged_in_page_after_successful_login - Test logged in page state after successful login.
+2025-07-22 21:10:40 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_logged_in_page_after_successful_login (Duration: 2.31s)
+2025-07-22 21:10:40 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_logged_in_page_verification_methods - Test various verification methods on logged in page.
+2025-07-22 21:10:42 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_logged_in_page_verification_methods (Duration: 2.05s)
+2025-07-22 21:10:42 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_transition_login_to_logged_in - Test page transition from login to logged in page.
+2025-07-22 21:10:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_transition_login_to_logged_in (Duration: 2.14s)
+2025-07-22 21:10:44 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_object_error_handling - Test page object error handling for missing elements.
+2025-07-22 21:10:46 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_object_error_handling (Duration: 1.67s)
+2025-07-22 21:10:46 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_object_wait_mechanisms - Test page object wait mechanisms.
+2025-07-22 21:10:47 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_object_wait_mechanisms (Duration: 1.68s)
+2025-07-22 21:10:47 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:10:47 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 21:11:41 | INFO     | conftest:setup_test_environment:70 | Setting up test environment...
+2025-07-22 21:11:42 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:11:42 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_successful_login_with_valid_credentials - Test successful login with valid credentials.
+2025-07-22 21:11:42 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:11:43 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login page is displayed
+2025-07-22 21:11:43 | INFO     | src.utils.logger:log_step:98 | STEP: Login with valid credentials
+2025-07-22 21:11:44 | INFO     | src.utils.logger:log_step:98 | STEP: Verify successful login
+2025-07-22 21:11:44 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_successful_login_with_valid_credentials (Duration: 2.74s)
+2025-07-22 21:11:44 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:11:44 | INFO     | conftest:setup_test_environment:78 | Test environment cleanup completed
+2025-07-22 21:14:36 | INFO     | conftest:setup_test_environment:71 | Setting up test environment...
+2025-07-22 21:14:36 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:14:36 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_navigation - Test navigation to login page.
+2025-07-22 21:14:38 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_navigation (Duration: 1.72s)
+2025-07-22 21:14:38 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:14:38 | INFO     | conftest:setup_test_environment:79 | Test environment cleanup completed
+2025-07-22 21:14:47 | INFO     | conftest:setup_test_environment:71 | Setting up test environment...
+2025-07-22 21:14:47 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:14:48 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_navigation - Test navigation to login page.
+2025-07-22 21:14:49 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_navigation (Duration: 1.71s)
+2025-07-22 21:14:49 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_elements_visibility - Test that all login page elements are visible.
+2025-07-22 21:14:51 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_elements_visibility (Duration: 1.68s)
+2025-07-22 21:14:51 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_form_interaction - Test basic form interactions on login page.
+2025-07-22 21:14:53 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_form_interaction (Duration: 1.77s)
+2025-07-22 21:14:53 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_successful_login_flow - Test successful login flow using page objects.
+2025-07-22 21:14:55 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_successful_login_flow (Duration: 2.41s)
+2025-07-22 21:14:55 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_failed_login_flow - Test failed login flow using page objects.
+2025-07-22 21:14:57 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_failed_login_flow (Duration: 1.76s)
+2025-07-22 21:14:57 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_logged_in_page_after_successful_login - Test logged in page state after successful login.
+2025-07-22 21:14:59 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_logged_in_page_after_successful_login (Duration: 2.10s)
+2025-07-22 21:14:59 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_logged_in_page_verification_methods - Test various verification methods on logged in page.
+2025-07-22 21:15:01 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_logged_in_page_verification_methods (Duration: 2.09s)
+2025-07-22 21:15:01 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_transition_login_to_logged_in - Test page transition from login to logged in page.
+2025-07-22 21:15:03 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_transition_login_to_logged_in (Duration: 2.05s)
+2025-07-22 21:15:03 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_object_error_handling - Test page object error handling for missing elements.
+2025-07-22 21:15:05 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_object_error_handling (Duration: 1.67s)
+2025-07-22 21:15:05 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_object_wait_mechanisms - Test page object wait mechanisms.
+2025-07-22 21:15:07 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_object_wait_mechanisms (Duration: 1.68s)
+2025-07-22 21:15:07 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:15:07 | INFO     | conftest:setup_test_environment:79 | Test environment cleanup completed
+2025-07-22 21:15:16 | INFO     | conftest:setup_test_environment:71 | Setting up test environment...
+2025-07-22 21:15:16 | INFO     | src.utils.fixtures:browser:47 | Browser launched: chromium
+2025-07-22 21:15:16 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_successful_login_with_valid_credentials - Test successful login with valid credentials.
+2025-07-22 21:15:16 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:15:18 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login page is displayed
+2025-07-22 21:15:18 | INFO     | src.utils.logger:log_step:98 | STEP: Login with valid credentials
+2025-07-22 21:15:19 | INFO     | src.utils.logger:log_step:98 | STEP: Verify successful login
+2025-07-22 21:15:19 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_successful_login_with_valid_credentials (Duration: 2.74s)
+2025-07-22 21:15:19 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_username - Test login failure with invalid username.
+2025-07-22 21:15:19 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:15:21 | INFO     | src.utils.logger:log_step:98 | STEP: Login with invalid username
+2025-07-22 21:15:21 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:15:21 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_username (Duration: 2.40s)
+2025-07-22 21:15:21 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_password - Test login failure with invalid password.
+2025-07-22 21:15:21 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:15:23 | INFO     | src.utils.logger:log_step:98 | STEP: Login with invalid password
+2025-07-22 21:15:24 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:15:24 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_password (Duration: 2.44s)
+2025-07-22 21:15:24 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_both_invalid_credentials - Test login failure with both invalid username and password.
+2025-07-22 21:15:24 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:15:26 | INFO     | src.utils.logger:log_step:98 | STEP: Login with both invalid credentials
+2025-07-22 21:15:26 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:15:26 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_both_invalid_credentials (Duration: 2.51s)
+2025-07-22 21:15:26 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_empty_username - Test login failure with empty username.
+2025-07-22 21:15:26 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:15:28 | INFO     | src.utils.logger:log_step:98 | STEP: Login with empty username
+2025-07-22 21:15:29 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:15:29 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_empty_username (Duration: 2.39s)
+2025-07-22 21:15:29 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_empty_password - Test login failure with empty password.
+2025-07-22 21:15:29 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:15:31 | INFO     | src.utils.logger:log_step:98 | STEP: Login with empty password
+2025-07-22 21:15:31 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:15:31 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_empty_password (Duration: 2.38s)
+2025-07-22 21:15:31 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_both_empty_fields - Test login failure with both empty fields.
+2025-07-22 21:15:31 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:15:33 | INFO     | src.utils.logger:log_step:98 | STEP: Login with both empty fields
+2025-07-22 21:15:34 | INFO     | src.utils.logger:log_step:98 | STEP: Verify login failure
+2025-07-22 21:15:34 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_both_empty_fields (Duration: 2.36s)
+2025-07-22 21:15:34 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_elements_are_visible - Test that all login page elements are visible and accessible.
+2025-07-22 21:15:34 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:15:35 | INFO     | src.utils.logger:log_step:98 | STEP: Verify all login elements are visible
+2025-07-22 21:15:35 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_elements_are_visible (Duration: 1.71s)
+2025-07-22 21:15:35 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_url_and_title - Test login page URL and title are correct.
+2025-07-22 21:15:35 | INFO     | src.utils.logger:log_step:98 | STEP: Navigate to login page
+2025-07-22 21:15:37 | INFO     | src.utils.logger:log_step:98 | STEP: Verify URL and page title
+2025-07-22 21:15:37 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_url_and_title (Duration: 1.68s)
+2025-07-22 21:15:37 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials0] - Test login with various invalid credential combinations.
+2025-07-22 21:15:37 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Invalid username with valid password
+2025-07-22 21:15:40 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials0] (Duration: 2.42s)
+2025-07-22 21:15:40 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials1] - Test login with various invalid credential combinations.
+2025-07-22 21:15:40 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Valid username with invalid password
+2025-07-22 21:15:42 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials1] (Duration: 2.41s)
+2025-07-22 21:15:42 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials2] - Test login with various invalid credential combinations.
+2025-07-22 21:15:42 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Both username and password invalid
+2025-07-22 21:15:45 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials2] (Duration: 2.46s)
+2025-07-22 21:15:45 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials3] - Test login with various invalid credential combinations.
+2025-07-22 21:15:45 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Empty username with valid password
+2025-07-22 21:15:47 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials3] (Duration: 2.36s)
+2025-07-22 21:15:47 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials4] - Test login with various invalid credential combinations.
+2025-07-22 21:15:47 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Valid username with empty password
+2025-07-22 21:15:49 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials4] (Duration: 2.36s)
+2025-07-22 21:15:49 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials5] - Test login with various invalid credential combinations.
+2025-07-22 21:15:49 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Both username and password empty
+2025-07-22 21:15:52 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials5] (Duration: 2.34s)
+2025-07-22 21:15:52 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials6] - Test login with various invalid credential combinations.
+2025-07-22 21:15:52 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Username with special characters
+2025-07-22 21:15:54 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials6] (Duration: 2.36s)
+2025-07-22 21:15:54 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials7] - Test login with various invalid credential combinations.
+2025-07-22 21:15:54 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Very long username
+2025-07-22 21:15:57 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials7] (Duration: 2.39s)
+2025-07-22 21:15:57 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_with_invalid_credentials_parametrized[credentials8] - Test login with various invalid credential combinations.
+2025-07-22 21:15:57 | INFO     | src.utils.logger:log_step:98 | STEP: Testing: Very long password
+2025-07-22 21:15:59 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_with_invalid_credentials_parametrized[credentials8] (Duration: 2.41s)
+2025-07-22 21:15:59 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_navigation - Test navigation to login page.
+2025-07-22 21:16:01 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_navigation (Duration: 1.68s)
+2025-07-22 21:16:01 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_elements_visibility - Test that all login page elements are visible.
+2025-07-22 21:16:02 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_elements_visibility (Duration: 1.70s)
+2025-07-22 21:16:02 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_login_page_form_interaction - Test basic form interactions on login page.
+2025-07-22 21:16:04 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_login_page_form_interaction (Duration: 1.75s)
+2025-07-22 21:16:04 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_successful_login_flow - Test successful login flow using page objects.
+2025-07-22 21:16:06 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_successful_login_flow (Duration: 2.11s)
+2025-07-22 21:16:06 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_failed_login_flow - Test failed login flow using page objects.
+2025-07-22 21:16:08 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_failed_login_flow (Duration: 1.76s)
+2025-07-22 21:16:08 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_logged_in_page_after_successful_login - Test logged in page state after successful login.
+2025-07-22 21:16:10 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_logged_in_page_after_successful_login (Duration: 2.17s)
+2025-07-22 21:16:10 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_logged_in_page_verification_methods - Test various verification methods on logged in page.
+2025-07-22 21:16:13 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_logged_in_page_verification_methods (Duration: 2.10s)
+2025-07-22 21:16:13 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_transition_login_to_logged_in - Test page transition from login to logged in page.
+2025-07-22 21:16:15 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_transition_login_to_logged_in (Duration: 2.09s)
+2025-07-22 21:16:15 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_object_error_handling - Test page object error handling for missing elements.
+2025-07-22 21:16:16 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_object_error_handling (Duration: 1.69s)
+2025-07-22 21:16:16 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_page_object_wait_mechanisms - Test page object wait mechanisms.
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_page_object_wait_mechanisms (Duration: 1.71s)
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_creation - Test that an actor can be created with a name.
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_creation (Duration: 0.00s)
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_be_granted_abilities - Test that an actor can be granted abilities.
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_be_granted_abilities (Duration: 0.00s)
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_check_for_abilities - Test that an actor can check if it has specific abilities.
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_check_for_abilities (Duration: 0.00s)
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_retrieve_abilities - Test that an actor can retrieve specific abilities.
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_retrieve_abilities (Duration: 0.00s)
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_raises_error_for_missing_ability - Test that an actor raises an error when trying to use a missing ability.
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_raises_error_for_missing_ability (Duration: 0.00s)
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_perform_tasks - Test that an actor can perform tasks.
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_perform_tasks (Duration: 0.00s)
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_actor_can_ask_questions - Test that an actor can ask questions.
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_actor_can_ask_questions (Duration: 0.00s)
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_creation_with_browser - Test creating BrowseTheWeb ability with a browser.
+2025-07-22 21:16:18 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_creation_with_browser (Duration: 0.00s)
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_creation_with_page - Test creating BrowseTheWeb ability with an existing page.
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_creation_with_page (Duration: 0.00s)
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_as_actor - Test binding BrowseTheWeb ability to an actor.
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_as_actor (Duration: 0.00s)
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_context_creation - Test that context is created when accessed.
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_context_creation (Duration: 0.00s)
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_browse_the_web_page_creation - Test that page is created when accessed.
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_browse_the_web_page_creation (Duration: 0.00s)
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_click_interaction - Test Click interaction.
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_click_interaction (Duration: 0.00s)
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_type_interaction - Test Type interaction.
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_type_interaction (Duration: 0.00s)
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_navigate_interaction - Test Navigate interaction.
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_navigate_interaction (Duration: 0.00s)
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_text_question - Test Text question.
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_text_question (Duration: 0.00s)
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_current_url_question - Test CurrentUrl question.
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_current_url_question (Duration: 0.00s)
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_start:82 | TEST STARTED: test_visibility_question - Test Visibility question.
+2025-07-22 21:16:19 | INFO     | src.utils.logger:log_test_pass:86 | TEST PASSED: test_visibility_question (Duration: 0.00s)
+2025-07-22 21:16:19 | INFO     | src.utils.fixtures:browser:50 | Browser closed
+2025-07-22 21:16:19 | INFO     | conftest:setup_test_environment:79 | Test environment cleanup completed

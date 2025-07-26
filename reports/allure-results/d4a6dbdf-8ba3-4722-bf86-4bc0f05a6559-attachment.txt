@@ -1,0 +1,2 @@
+[32m2025-07-22 21:15:01[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_start[0m:[36m82[0m | [1mTEST STARTED: test_page_transition_login_to_logged_in - Test page transition from login to logged in page.[0m
+[32m2025-07-22 21:15:03[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_pass[0m:[36m86[0m | [1mTEST PASSED: test_page_transition_login_to_logged_in (Duration: 2.05s)[0m

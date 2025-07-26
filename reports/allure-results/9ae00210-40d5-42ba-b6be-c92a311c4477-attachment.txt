@@ -1,0 +1,4 @@
+[32m2025-07-22 21:10:46[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_start[0m:[36m82[0m | [1mTEST STARTED: test_page_object_wait_mechanisms - Test page object wait mechanisms.[0m
+[32m2025-07-22 21:10:47[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_pass[0m:[36m86[0m | [1mTEST PASSED: test_page_object_wait_mechanisms (Duration: 1.68s)[0m
+[32m2025-07-22 21:10:47[0m | [1mINFO    [0m | [36msrc.utils.fixtures[0m:[36mbrowser[0m:[36m50[0m | [1mBrowser closed[0m
+[32m2025-07-22 21:10:47[0m | [1mINFO    [0m | [36mconftest[0m:[36msetup_test_environment[0m:[36m78[0m | [1mTest environment cleanup completed[0m

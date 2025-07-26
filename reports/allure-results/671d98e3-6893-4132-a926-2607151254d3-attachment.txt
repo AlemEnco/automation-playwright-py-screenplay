@@ -1,0 +1,3 @@
+[32m2025-07-22 21:15:45[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_start[0m:[36m82[0m | [1mTEST STARTED: test_login_with_invalid_credentials_parametrized[credentials3] - Test login with various invalid credential combinations.[0m
+[32m2025-07-22 21:15:45[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_step[0m:[36m98[0m | [1mSTEP: Testing: Empty username with valid password[0m
+[32m2025-07-22 21:15:47[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_pass[0m:[36m86[0m | [1mTEST PASSED: test_login_with_invalid_credentials_parametrized[credentials3] (Duration: 2.36s)[0m

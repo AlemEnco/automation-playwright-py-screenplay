@@ -1,0 +1,2 @@
+[32m2025-07-22 21:10:35[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_start[0m:[36m82[0m | [1mTEST STARTED: test_failed_login_flow - Test failed login flow using page objects.[0m
+[32m2025-07-22 21:10:37[0m | [1mINFO    [0m | [36msrc.utils.logger[0m:[36mlog_test_pass[0m:[36m86[0m | [1mTEST PASSED: test_failed_login_flow (Duration: 1.75s)[0m

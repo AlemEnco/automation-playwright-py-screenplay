@@ -1,0 +1,41 @@
+2025-07-22 21:01:43 | ERROR    | src.utils.logger:log_test_fail:90 | TEST FAILED: test_successful_login_with_valid_credentials (Duration: 2.82s) - self = <tests.e2e.test_login.TestLogin object at 0x110bbb890>, actor = Actor(TestUser)
+
+    @allure.story("Successful Login")
+    @allure.severity(allure.severity_level.CRITICAL)
+    @pytest.mark.smoke
+    @pytest.mark.login
+    def test_successful_login_with_valid_credentials(self, actor: Actor):
+        """Test successful login with valid credentials."""
+    
+        with allure.step("Navigate to login page"):
+            log_step("Navigate to login page")
+            actor.attempts_to(NavigateToLoginPage())
+    
+        with allure.step("Verify login page is displayed"):
+            log_step("Verify login page is displayed")
+            assert actor.asks(Visibility.of(LoginPageLocators.USERNAME_FIELD))
+            assert actor.asks(Visibility.of(LoginPageLocators.PASSWORD_FIELD))
+            assert actor.asks(Visibility.of(LoginPageLocators.SUBMIT_BUTTON))
+    
+        with allure.step("Login with valid credentials"):
+            log_step("Login with valid credentials")
+            actor.attempts_to(Login.with_valid_credentials())
+    
+        with allure.step("Verify successful login"):
+            log_step("Verify successful login")
+            # Check URL contains logged-in path
+            current_url = actor.asks(CurrentUrl())
+            assert "/logged-in-successfully/" in current_url
+    
+            # Check success message is displayed
+            assert actor.asks(Visibility.of(LoggedInPageLocators.SUCCESS_MESSAGE))
+    
+            # Verify success message text
+            success_text = actor.asks(Text.of(LoggedInPageLocators.SUCCESS_MESSAGE))
+>           assert "Congratulations" in success_text or "successfully logged in" in success_text.lower()
+E           AssertionError: assert ('Congratulations' in 'Logged In Successfully' or 'successfully logged in' in 'logged in successfully')
+E            +  where 'logged in successfully' = <built-in method lower of str object at 0x1114dacb0>()
+E            +    where <built-in method lower of str object at 0x1114dacb0> = 'Logged In Successfully'.lower
+
+tests/e2e/test_login.py:54: AssertionError
+2025-07-22 21:01:43 | ERROR    | src.utils.screenshot:take_screenshot_on_failure:96 | Failure screenshot saved: reports/screenshots/test_successful_login_with_valid_credentials/test_successful_login_with_valid_credentials_failure_self_=_tests.e2e.test_login.TestLogin_20250722_210143_788.png
